@@ -1,0 +1,135 @@
+{ 
+  "usuarios":[
+   {
+    "nombre":"Alejandro"
+    ,"usuario":"aleDos"
+    ,"password":"secreta"
+    , "gustos":[""]
+    , "alergias":[]
+    , "direccion":[["12.3", "17.8", "Frente Doña teresa"],["14.3", "13.8", "Frente Doña Lola"]] 
+    , "telefono": "84932248"
+    , "tipo":"Cliente"
+    , "dinero":"2500000"
+   },
+   { 
+    "nombre":"Carlos"
+    ,"usuario":"cociCrack"
+    ,"password":"cocinaGenial"
+    ,"tipo":"Cocinero"
+   },
+   { 
+    "nombre":"Joaquin"
+    ,"usuario":"elMejorAdmi"
+    ,"password":"admiGenial"
+    ,"tipo":"Administrador"
+   }
+  ],
+   "ingredientes":[
+    {
+     "nombre": "Papa"
+     ,"cantidad": "4"
+     ,"unidad":"unidad"
+     ,"tiposDeIngrediente":["Vegetal"]
+     ,"costo":"300"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    },
+    {
+     "nombre": "Carne de vaca"
+     ,"cantidad": "4"
+     ,"unidad":"kilos"
+     ,"tiposDeIngrediente":["Carne"]
+     ,"costo":"1000"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    
+    },
+    {
+      "nombre": "Carne de cerdo"
+     ,"cantidad": "4"
+     ,"unidad":"kilos"
+     ,"tiposDeIngrediente":["Carne de cerdo"]
+     ,"costo":"900"
+     ,"animalConPeseña":"false"
+     ,"gluten":"false"
+    },
+    {
+      "nombre": "Pan"
+     ,"cantidad": "4"
+     ,"unidad":"unidad"
+     ,"tiposDeIngrediente":["Trigo"]
+     ,"costo":"150"
+     ,"animalConPeseña":"true"
+     ,"gluten":"true"
+    },
+    {
+     "nombre": "Huevo"
+     ,"cantidad": "4"
+     ,"unidad":"unidad"
+     ,"tiposDeIngrediente":["Origen Animal"]
+     ,"costo":"100"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    },
+    {
+     "nombre": "Vino tinto"
+     ,"cantidad": "4"
+     ,"unidad":"litros"
+     ,"tiposDeIngrediente":["Alcohol"]
+     ,"costo":"700"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    },
+    {
+     "nombre": "Morcilla"
+     ,"cantidad": "4"
+     ,"unidad":"kilos"
+     ,"tiposDeIngrediente":["Sangre"]
+     ,"costo":"800"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    },
+    {
+     "nombre": "Lechuga"
+     ,"cantidad": "4"
+     ,"unidad":"unidad"
+     ,"tiposDeIngrediente":["Vegetal"]
+     ,"costo":"200"
+     ,"animalConPeseña":"true"
+     ,"gluten":"false"
+    }
+
+  ],
+   "platillos":[
+    {
+     "nombre":"Ensalada de papa"
+     ,"receta":"Cocine a fuego la papa y añada la lechuga"
+     ,"tipo":"Entrada"
+     ,"ingredientes":["Papa","Lechuga"]
+    },
+    {
+     "nombre":"Papa con carne"
+     ,"receta":"Cocine a fuego la papa y fria la carne y mescle"
+     ,"tipo":"Fuerte"
+     ,"ingredientes":["Papa","Carne de vaca"]
+    },
+    {
+     "nombre":"Cerdo con huevo"
+     ,"receta":"Fria el cerdo y mescle con el huevo frito"
+     ,"tipo":"Fuerte"
+     ,"ingredientes":["Carne de cerdo","Huevo"]
+    },
+    {
+     "nombre":"Pan con huevo"
+     ,"receta":"Parta el pan fria el huevo y sirva"
+     ,"tipo":"Entrada"
+     ,"ingredientes":["Pan","Huevo"]
+    },
+    {
+     "nombre":"Morcilla Alcoholica"
+     ,"receta":"Mescle el vino, con la sangría"
+     ,"tipo":"Bebida"
+     ,"ingredientes":["Morcilla","Vino tinto"]
+    }
+  ]
+}
